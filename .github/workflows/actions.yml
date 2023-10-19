@@ -19,7 +19,7 @@ jobs:
 
       - name: Install jest
 #        run: yarn install --save-dev jest
-        run: yarn install --save-dev jest
+        run: yarn install #jest
 
       - name: Run test
         run: yarn test
